@@ -5,14 +5,14 @@ $(document).ready(function(){
 		var currentImageIndex = $('.img.curry').index();
 		var nextImageIndex = currentImageIndex + 1;
 		var nextImage = $('.img').eq(nextImageIndex);
-		currentImage.fadeOut(2000);
+		currentImage.fadeOut(3000);
 		currentImage.removeClass('curry');
 
 		if(nextImageIndex == ($('.img:last').index()+1)){
-			$('.img').eq(0).fadeIn(2000);
+			$('.img').eq(0).fadeIn(3000);
 			$('.img').eq(0).addClass('curry');
 		} else{
-			nextImage.fadeIn(2000);
+			nextImage.fadeIn(3000);
 			nextImage.addClass('curry');
 		}
 	});
@@ -23,9 +23,9 @@ $(document).ready(function(){
 		var prevImageIndex = currentImageIndex - 1;
 		var prevImage = $('.img').eq(prevImageIndex);
 
-		currentImage.fadeOut(2000);
+		currentImage.fadeOut(3000);
 		currentImage.removeClass('curry');
-		prevImage.fadeIn(1000);
+		prevImage.fadeIn(3000);
 		prevImage.addClass('curry');
 	});
 
