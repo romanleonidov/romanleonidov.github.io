@@ -1,4 +1,5 @@
 body{
+	max-width: 1170px;
 	background: #2B2B2B;
 	display: flex;
 	font-family: Arial;
@@ -52,10 +53,10 @@ a:hover{
 .prev{
 	position: relative;
 	top: 240px;
-	left: 400px;
+	left: 310px;
 }
 .next{
 	position: relative;
 	top: 240px;
-	right: 400px;
+	right: 310px;
 }
